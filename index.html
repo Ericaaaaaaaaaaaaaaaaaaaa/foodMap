@@ -1,399 +1,220 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>Foodie's</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- bootstrap css -->
-      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" type="text/css" href="css/style.css">
-      <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- fevicon -->
-      <link rel="icon" href="images/food cover.jpg" type="image/gif" />
-      <!-- font css -->
-      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
-      <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-      <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-   </head>
-   <body>
-      <div class="header_section">
-         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <a class="navbar-brand"href="index.html"><img src="images/image-removebg-preview (2).png"></a>
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-               </button>
-               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ml-auto">
-                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="coffees.html">Coffees</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="shop.html">Shop</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                     </li>
-                  </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                     <div class="login_bt">
-                        <ul>
-                           <li><a href="#"><span class="user_icon"><i class="fa fa-user" aria-hidden="true"></i></span>Login</a></li>
-                           <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                        </ul>
-                     </div>
-                  </form>
-               </div>
-            </nav>
-         </div>
-         <!-- banner section start --> 
-         <div class="banner_section layout_padding">
-            <div class="container">
-               <div id="banner_slider" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner">
-                     <div class="carousel-item active">
-                        <div class="row">
-                           <div class="col-md-12">
-                              <div class="banner_taital_main">
-                                 <h1 class="banner_taital">Restaurant <br>Map</h1>
-                                 <p class="banner_text">Delicious meals for you to discover </p>
-                                 <div class="btn_main">
-                                    <div class="about_bt active"><a href="#">Search area</a></div>
-                                    <div class="callnow_bt"><a href="#">Cruisines</a></div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="carousel-item">
-                        <div class="row">
-                           <div class="col-md-12">
-                              <div class="banner_taital_main">
-                                 <h1 class="banner_taital">New <br>Restaurant</h1>
-                                 <p class="banner_text">For you to try out! </p>
-                                 <div class="btn_main">
-                                    <div class="about_bt active"><a href="#">Search area</a></div>
-                                    <div class="callnow_bt"><a href="#">Cruisines</a></div>
-                                 </div>
-                              </div>
-                         </div>
-                        </div>
-                     </div>
-                     <div class="carousel-item">
-                        <div class="row">
-                           <div class="col-md-12">
-                              <div class="banner_taital_main">
-                                 <h1 class="banner_taital">Top 10<br>For all times</h1>
-                                 <p class="banner_text">Ones that never go wrong </p>
-                                 <div class="btn_main">
-                                    <div class="about_bt active"><a href="#">Search Area</a></div>
-                                    <div class="callnow_bt"><a href="#">Cruisines</a></div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <a class="carousel-control-prev" href="#banner_slider" role="button" data-slide="prev">
-                  <i class="fa fa-arrow-left"></i>
-                  </a>
-                  <a class="carousel-control-next" href="#banner_slider" role="button" data-slide="next">
-                  <i class="fa fa-arrow-right"></i>
-                  </a>
-               </div>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Resume - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Erica Tseng</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                </ul>
             </div>
-         </div>
-         <!-- banner section end -->
-      </div>
-      <!-- header section end -->
-      <!-- about section start -->
-      <div class="about_section layout_padding">
-         <div class="container">
-            <div class="about_section_2">
-               <div class="row">
-                  <div class="col-md-6"> 
-                     <div class="about_taital_box">
-                        <h1 class="about_taital">About the website</h1>
-                        <h1 class="about_taital_1">A "Life Saver"!</h1>
-                        <p class=" about_text">Is selecting what you want to eat a difficult task for you every day? Well, Foodie's is here to help! Select your area and cruisines, ENJOYYYY</p>
-                        <div class="readmore_btn"><a href="#">Read More</a></div>
-                     </div>
-                  </div>
-                  <div class="col-md-6"> 
-                     <div class="image_iman"><img src="images/about-img.png" class="about_img"></div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- about section end -->
-      <!-- coffee section start -->
-      <div class="coffee_section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <h1 class="coffee_taital">All YOU CAN THINK</h1>
-               </div>
-            </div>
-         </div>
-         <div class="coffee_section_2">
-            <div id="main_slider" class="carousel slide" data-ride="carousel">
-               <div class="carousel-inner">
-                  <div class="carousel-item active">
-                     <div class="container-fluid">
-                        <div class="row">
-                           <div class="col-lg-3 col-md-6">
-                              <div class="coffee_img"><img src="images/japanese-food-2.jpg"></div>
-                              <div class="coffee_box">
-                                 <h3 class="types_text">MEALS</h3>
-                                 <p class="looking_text">Yum Yum</p>
-                                 <div class="read_bt"><a href="#">Read More</a></div>
-                              </div>
-                           </div>
-                           <div class="col-lg-3 col-md-6">
-                              <div class="coffee_img"><img src="images/pie and tarts.jpg"></div>
-                              <div class="coffee_box">
-                                 <h3 class="types_text">DESERTS</h3>
-                                 <p class="looking_text">Never enough</p>
-                                 <div class="read_bt"><a href="#">Read More</a></div>
-                              </div>
-                           </div>
-                           <div class="col-lg-3 col-md-6">
-                              <div class="coffee_img"><img src="images/hand shaken.jpg"></div>
-                              <div class="coffee_box">
-                                 <h3 class="types_text">DRINKS</h3>
-                                 <p class="looking_text">Refreshing</p>
-                                 <div class="read_bt"><a href="#">Read More</a></div>
-                              </div>
-                           </div>
-                           <div class="col-lg-3 col-md-6">
-                              <div class="coffee_img"><img src="images/fast food.jpg"></div>
-                              <div class="coffee_box">
-                                 <h3 class="types_text">DRIVE THRU</h3>
-                                 <p class="looking_text">Convience</p>
-                                 <div class="read_bt"><a href="#">Read More</a></div>
-                              </div>
-                           </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Erica
+                        <span class="text-primary">Tseng</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        3542 Chocolate Street · 123456 · 
+                        <a href="mailto:name@email.com">erica@email.com</a>
+                    </div>
+                    <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Volunteering in Mongolia</h3>
+                            <div class="subheading mb-3">Volunteer</div>
+                            <p>Not only did I had a meaningful summer, I also made many friends. It also strengthens the connection with society. Other volunteers, and the enthusiastic responsds from the children makes me happy and satisfied. </p>
                         </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- coffee section end -->
-      <!-- client section start -->
-      <div class="client_section layout_padding">
-         <div class="container">
-            <div id="custom_slider" class="carousel slide" data-ride="carousel">
-               <div class="carousel-inner">
-                  <div class="carousel-item active">
-                     <div class="row">
-                        <div class="col-md-12">
-                           <h1 class="about_taital">What syas customers</h1>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2023</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Cycling Aroung Taiwan for 12 Days</h3>
+                            <div class="subheading mb-3">Extracurricular Activity</div>
+                            <p>dhpsdjhgnpsghnpsghj</p>
                         </div>
-                     </div>
-                     <div class="client_section_2">
-                        <div class="client_taital_main">
-                           <div class="client_left">
-                              <div class="client_img"><img src="images/client-img1.png"></div>
-                           </div>
-                           <div class="client_right">
-                              <h3 class="moark_text">Joy Moark</h3>
-                              <p class="client_text">now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancynow use Lorem Ipsum as their default model text, </p>
-                           </div>
+                        <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Junior Web Designer</h3>
+                            <div class="subheading mb-3">Shout! Media Productions</div>
+                            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
                         </div>
-                     </div>
-                  </div>
-                  <div class="carousel-item">
-                     <div class="row">
-                        <div class="col-md-12">
-                           <h1 class="about_taital">BLA </h1>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Web Design Intern</h3>
+                            <div class="subheading mb-3">Shout! Media Productions</div>
+                            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
                         </div>
-                     </div>
-                     <div class="client_section_2">
-                        <div class="client_taital_main">
-                           <div class="client_left">
-                              <div class="client_img"><img src="images/mcdonalds.jpg"></div>
-                           </div>
-                           <div class="client_right">
-                              <h3 class="moark_text">BLABLABLA</h3>
-                              <p class="client_text">BLABLA</p>
-                           </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Kanf Chiao International School</h3>
+                            <div class="subheading mb-3">Advance Placement Program</div>
+                            <p>GPA: 4.0</p>
                         </div>
-                     </div>
-                  </div>
-                  <div class="carousel-item">
-                     <div class="row">
-                        <div class="col-md-12">
-                           <h1 class="about_taital">Cooperative stores</h1>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2022 - June 2025</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">MingDao Junior High</h3>
+                            <div class="subheading mb-3">General Program</div>
+                            <p>GPA: 4.3</p>
                         </div>
-                     </div>
-                     <div class="client_section_2">
-                        <div class="client_taital_main">
-                           <div class="client_left">
-                              <div class="client_img"><img src="images/mcdonalds.jpg"></div>
-                           </div>
-                           <div class="client_right">
-                              <h3 class="moark_text">McDonald</h3>
-                              <p class="client_text">Join membership for monthly discount and free meals!</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <a class="carousel-control-prev" href="#custom_slider" role="button" data-slide="prev">
-               <i class="fa fa-arrow-left"></i>
-               </a>
-               <a class="carousel-control-next" href="#custom_slider" role="button" data-slide="next">
-               <i class="fa fa-arrow-right"></i>
-               </a>
-            </div>
-         </div>
-      </div>
-      <!-- client section end -->
-      <!-- blog section start -->
-      <div class="blog_section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <h1 class="about_taital">Our Blog</h1>
-               </div>
-            </div>
-            <div class="blog_section_2">
-               <div class="row">
-                  <div class="col-md-6">
-                     <div class="blog_box">
-                        <div class="blog_img"><img src="images/blog-img1.png"></div>
-                        <h4 class="date_text">05 April</h4>
-                        <h4 class="prep_text">PREP TECHNIQUES Coffee</h4>
-                        <p class="lorem_text">distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a moredistracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more</p>
-                     </div>
-                     <div class="read_btn"><a href="#">Read More</a></div>
-                  </div>
-                  <div class="col-md-6">
-                     <div class="blog_box">
-                        <div class="blog_img"><img src="images/blog-img2.png"></div>
-                        <h4 class="date_text">05 April</h4>
-                        <h4 class="prep_text">Enjoy Best Coffee</h4>
-                        <p class="lorem_text">distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a moredistracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more</p>
-                     </div>
-                     <div class="read_btn"><a href="#">Read More</a></div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- blog section end -->
-      <!-- contact section start -->
-      <div class="contact_section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12">
-                  <h1 class="contact_taital">Get In Touch</h1>
-               </div>
-            </div>
-         </div>
-         <div class="container-fluid">
-            <div class="contact_section_2">
-               <div class="row">
-                  <div class="col-md-12">
-                     <div class="mail_section_1">
-                        <input type="text" class="mail_text" placeholder="Your Name" name="Your Name">
-                        <input type="text" class="mail_text" placeholder="Your Email" name="Your Email">
-                        <input type="text" class="mail_text" placeholder="Your Phone" name="Your Phone">
-                        <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
-                        <div class="send_bt"><a href="#">Send</a></div>
-                     </div>
-                  </div>
-                  <div class="map_main">
-                     <div class="map-responsive">
-                        <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="250" height="500" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- contact section end -->
-      <!-- footer section start -->
-      <div class="footer_section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="footer_social_icon">
-                     <ul>
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                     </ul>
-                  </div>
-                  <div class="location_text">
-                     <ul>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2019 - June 2022</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
+                    </ul>
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
                         <li>
-                           <a href="#">
-                           <i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left_10">+01 1234567890</span>
-                           </a>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Mobile-First, Responsive Design
                         </li>
                         <li>
-                           <a href="#">
-                           <i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left_10">demo@gmail.com</span>
-                           </a>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Browser Testing & Debugging
                         </li>
-                     </ul>
-                  </div>
-                  <div class="form-group">
-                     <textarea class="update_mail" placeholder="Your Email" rows="5" id="comment" name="Your Email"></textarea>
-                     <div class="subscribe_bt"><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a></div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- footer section end -->
-      <!-- copyright section start -->
-      <div class="copyright_section">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12">
-                  <p class="copyright_text">2020 All Rights Reserved. Design by <a href="https://html.design">Free Html Templates</a>
-                     Distribution by <a href="https://themewagon.com">ThemeWagon</a></p>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- copyright section end -->
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/plugin.js"></script>
-      <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
-   </body>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Functional Teams
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Agile Development & Scrum
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>
+                        My interests are studying Taylor Swift's lyrics, exploring the city and discovering good restaurants, building LEGO sets, and collecting vinyl records.</p>
+                    <p class="mb-0">I am also a ISTP person, I am energized by spending time alone and I love action, new experiences and the freedom and flexibility to work at my own pace. I also enjoy hands-on activities (LEGOs!!!) and taking things apart just to see how they work. </p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Google Analytics Certified Developer
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Mobile Web Specialist - Google Certification
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            2
+                            <sup>nd</sup>
+                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - James Buchanan High School - Hackathon 2006
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            3
+                            <sup>rd</sup>
+                            Place - James Buchanan High School - Hackathon 2005
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
